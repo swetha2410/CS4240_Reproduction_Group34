@@ -89,8 +89,8 @@ def prototypical_loss(input, target, n_support):
     query_idxs = torch.stack(list(map(lambda c: target_cpu.eq(c).nonzero()[n_support:], classes))).view(-1)
 
     query_samples = input.to('cpu')[query_idxs]
-    dists = euclidean_dist(query_samples, prototypes)
-    #dists = manhattan_dist(query_samples,prototypes)
+    #dists = euclidean_dist(query_samples, prototypes)
+    dists = manhattan_dist(query_samples,prototypes)
 
     log_p_y = F.log_softmax(-dists, dim=1).view(n_classes, n_query, -1)
 
