@@ -4,6 +4,8 @@ This repository is an attempt to reproduce the paper Prototypical Networks for F
 
  To train and test the model we have provided a [kaggle](https://www.kaggle.com/code/swethabalram2410/prototypical-networks-for-few-shot-learning/output) notebook. The scripts to download the Omniglot dataset is provided in omniglot_dataset.py file. 
 
+ To train and test the model on the mini_imagenet dataset, the code under the mini_imagenet directory can be used. Aditionally, a jupyter notebook has been provided to train and test the model using the mini_imagenet dataset which must be provided as input in kaggle. 
+
 # Authors
  - Aratrika Das
  - Kenzo Boudier
