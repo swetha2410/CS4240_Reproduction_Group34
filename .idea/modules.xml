@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CS4240_Reproduction_Group34.iml" filepath="$PROJECT_DIR$/.idea/CS4240_Reproduction_Group34.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Prototypical-Networks-for-Few-Shot-Learning/.idea/Prototypical-Networks-for-Few-Shot-Learning.iml" filepath="$PROJECT_DIR$/../Prototypical-Networks-for-Few-Shot-Learning/.idea/Prototypical-Networks-for-Few-Shot-Learning.iml" />
+    </modules>
+  </component>
+</project>
